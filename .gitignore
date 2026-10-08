@@ -1,0 +1,52 @@
+# Virtualenv
+env/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# Django
+*.log
+*.pot
+*.sqlite3
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# Cobertura de testes
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build / dist
+dist/
+build/
+*.egg-info/
